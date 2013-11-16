@@ -21,5 +21,20 @@ After open vim ,just type :BundleUpdate
 
 After done of this, exit vim and then reopen vim, your vim is fresh and new
 
+Update 
+--------
 
+```
+cd  ~/vimsuite && git pull --rebase && git submodule update --init
+cp -rvf .vi* ~/
+vim
+```
+
+
+Mail list
+-----------
+
+Users can subscribe to your list by sending email to ar-request@freelists.org with 'subscribe' in the Subject field OR by visiting your list page at http://www.freelists.org/list/ar The web-based administration suite allows you to add subscribers manually.
+
+If you have any question please feel free to join mailist to have a chat.
 
