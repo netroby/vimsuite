@@ -23,9 +23,9 @@ set ai
 syntax on
 set si
 set nowritebackup
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set langmenu=en
 let $LANG = 'en_US'
 source $VIMRUNTIME/delmenu.vim
