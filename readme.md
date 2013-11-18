@@ -4,11 +4,31 @@ vimsuite
 This is a vim suite for me , also for you , if you are a coder.
 
 Supported Distro:
+-----------------
 
 * MacOS 10.9
 * Debian 7
 * CentOS 5
 * CentOS 6
+
+
+### why there is no windows support?
+
+All programmer, should be starting your learning from Linux/Unix.
+
+If you have not yet know Linux/Unix, you really should know more about it.
+
+Windows is a good platform to Users, but not a good platform to Developers.
+
+All power and wise developer should using Linux/Unix , even MacOS, better more than Windows.
+
+No BSOD, No virus. No pain.
+
+So We decide not support Windows as these time.
+
+Try Linux/Unix, or MacOS, you should see a new world.
+
+
 
 Installation
 -------------
