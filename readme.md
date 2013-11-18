@@ -3,6 +3,13 @@ vimsuite
 
 This is a vim suite for me , also for you , if you are a coder.
 
+Supported Distro:
+
+* MacOS 10.9
+* Debian 7
+* CentOS 5
+* CentOS 6
+
 Installation
 -------------
 
