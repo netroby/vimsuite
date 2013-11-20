@@ -39,8 +39,10 @@ let g:fencview_checklines = 30
 let g:vim_markdown_folding_disabled=0
 set ff=unix
 set guioptions-=T
-xnoremap p pgvy
+"快捷键映射
 map <F7> :NERDTreeToggle<RETURN>
 map! <F7> :NERDTreeToggle<RETURN>
 map <F8> :FencAutoDetect<RETURN>
 map! <F8> :FencAutoDetect<RETURN>
+set backspace=2
+:fixdel
