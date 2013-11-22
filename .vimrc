@@ -13,6 +13,7 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'Rykka/riv.vim'
 Bundle 'elzr/vim-json'
 Bundle '2072/PHP-Indenting-for-VIm'
+Bundle 'repos-scala/scala-vundle'
 set ls=2
 if has("statusline")
 	 set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
