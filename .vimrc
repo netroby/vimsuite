@@ -45,5 +45,6 @@ map <F7> :NERDTreeToggle<RETURN>
 map! <F7> :NERDTreeToggle<RETURN>
 map <F8> :FencAutoDetect<RETURN>
 map! <F8> :FencAutoDetect<RETURN>
+xnoremap p pgvy
 set backspace=2
 :fixdel
