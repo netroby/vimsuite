@@ -41,7 +41,8 @@ and copy .vimrc and .vim to your home directory.
 ```
 git clone https://github.com/ancientrock/vimsuite.git ~/vimsuite 
 cd  ~/vimsuite && git pull --rebase && git submodule update --init
-cp -rvf .vi* ~/
+ln -s ~/vimsuite/.vimrc ~/.vimrc
+ln -s ~/vimsuite/.vim ~/.vim
 vim
 ```
 After open vim ,just type :BundleUpdate
@@ -53,7 +54,6 @@ Update
 
 ```
 cd  ~/vimsuite && git pull --rebase && git submodule update --init
-cp -rvf .vi* ~/
 vim
 ```
 
