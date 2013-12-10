@@ -1,3 +1,6 @@
 [submodule ".vim/bundle/vundle"]
 	path = .vim/bundle/vundle
 	url = https://github.com/gmarik/vundle.git
+[submodule ".vim/bundle/PHP-Indenting-for-VIm"]
+	path = .vim/bundle/PHP-Indenting-for-VIm
+	url = https://github.com/2072/PHP-Indenting-for-VIm.git
