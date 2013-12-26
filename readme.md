@@ -41,6 +41,7 @@ and copy .vimrc and .vim to your home directory.
 ```
 git clone https://github.com/ancientrock/vimsuite.git ~/vimsuite 
 cd  ~/vimsuite && git pull --rebase && git submodule update --init
+rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
 ln -s ~/vimsuite/.vim ~/.vim
 vim
