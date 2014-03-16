@@ -1,5 +1,3 @@
-" Author: netroby <hufeng1987@gmail.com>
-" Website: http://vimcustom.duapp.com
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
@@ -29,8 +27,6 @@ set softtabstop=4
 set shiftwidth=4
 set langmenu=en
 let $LANG = 'en_US'
-source $VIMRUNTIME/delmenu.vim
-source $VIMRUNTIME/menu.vim
 let g:NERDTreeDirArrows=0
 set fileencodings=utf-8,gbk,cp936,cp950,latin1
 set t_Co=256 
@@ -40,7 +36,6 @@ let g:fencview_checklines = 30
 let g:vim_markdown_folding_disabled=0
 set ff=unix
 set guioptions-=T
-"快捷键映射
 map <F7> :NERDTreeToggle<RETURN>
 map! <F7> :NERDTreeToggle<RETURN>
 map <F8> :FencAutoDetect<RETURN>
