@@ -33,6 +33,16 @@ Try Linux/Unix, or MacOS, you should see a new world.
 Installation
 -------------
 
+First, you must full install vim.
+
+If you are using debian or whatever.
+
+you need install vim full with following command.
+
+```sh
+apt-get install vim-nox
+```
+
 
 Just clone it to your local repository.
 
