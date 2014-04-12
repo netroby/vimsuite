@@ -3,7 +3,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
-"Bundle 'mattn/emmet-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'mbbill/fencview'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tomasr/molokai'
@@ -11,7 +11,7 @@ Bundle 'plasticboy/vim-markdown'
 Bundle 'Rykka/riv.vim'
 Bundle 'elzr/vim-json'
 Bundle '2072/PHP-Indenting-for-VIm'
-"Bundle 'repos-scala/scala-vundle'
+Bundle 'repos-scala/scala-vundle'
 "Bundle 'Shougo/neocomplete'
 "Bundle 'Shougo/neosnippet'
 "Bundle 'Shougo/neosnippet-snippets'
