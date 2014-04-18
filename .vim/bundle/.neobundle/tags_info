@@ -12,6 +12,7 @@ riv.vim
 scala-vundle
 unite-outline
 unite.vim
+vim-airline
 vim-colorschemes
 vim-fugitive
 vim-json
