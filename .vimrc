@@ -162,3 +162,6 @@ smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
 if has('conceal')
   set conceallevel=2 concealcursor=i
 endif
+hi CursorLine   cterm=NONE ctermbg=235
+hi CursorColumn cterm=NONE ctermbg=235
+nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
