@@ -17,4 +17,6 @@ vim-colorschemes
 vim-fugitive
 vim-json
 vim-markdown
+vim-paren-crosshairs
+vim-surround
 vimproc

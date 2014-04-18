@@ -58,3 +58,9 @@
 [submodule ".vim/bundle/vim-airline"]
 	path = .vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule ".vim/bundle/vim-paren-crosshairs"]
+	path = .vim/bundle/vim-paren-crosshairs
+	url = https://github.com/chreekat/vim-paren-crosshairs.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
