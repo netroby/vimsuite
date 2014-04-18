@@ -10,7 +10,10 @@ neosnippet-snippets
 nerdtree
 riv.vim
 scala-vundle
+unite-outline
+unite.vim
 vim-colorschemes
 vim-fugitive
 vim-json
 vim-markdown
+vimproc
