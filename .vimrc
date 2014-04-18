@@ -1,25 +1,32 @@
-set nocompatible
+if has('vim_starting')
+    set nocompatible
+    set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'mattn/emmet-vim'
-Bundle 'mbbill/fencview'
-Bundle 'scrooloose/nerdtree'
-Bundle 'tomasr/molokai'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'Rykka/riv.vim'
-Bundle 'elzr/vim-json'
-Bundle '2072/PHP-Indenting-for-VIm'
-Bundle 'repos-scala/scala-vundle'
-Bundle 'Shougo/neocomplete'
-Bundle 'Shougo/neosnippet'
-Bundle 'Shougo/neosnippet-snippets'
+call neobundle#begin(expand('~/.vim/bundle/'))
+NeoBundleFetch 'Shougo/neobundle.vim'
+NeoBundle 'mattn/emmet-vim'
+NeoBundle 'mbbill/fencview'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'tomasr/molokai'
+NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'Rykka/riv.vim'
+NeoBundle 'elzr/vim-json'
+NeoBundle '2072/PHP-Indenting-for-VIm'
+NeoBundle 'repos-scala/scala-vundle'
+NeoBundle 'Shougo/neocomplete'
+NeoBundle 'Shougo/neosnippet'
+NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'flazz/vim-colorschemes'
+call neobundle#end()
 set ls=2
 if has("statusline")
     set statusline=%<%f\ %h%m%r%=%{\"[\".(&fenc==\"\"?&enc:&fenc).((exists(\"+bomb\")\ &&\ &bomb)?\",B\":\"\").\"]\ \"}%k\ %-14.(%l,%c%V%)\ %P
 endif
 filetype plugin indent on
+NeoBundleCheck
 set nobackup
 set ai
 syntax on
