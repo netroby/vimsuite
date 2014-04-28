@@ -38,10 +38,12 @@ set ls=2
 filetype plugin indent on
 NeoBundleCheck
 set nobackup
+set nowritebackup
+set noswapfile
+set noundofile
 set ai
 syntax on
 set si
-set nowritebackup
 set expandtab
 set tabstop=4
 set softtabstop=4
