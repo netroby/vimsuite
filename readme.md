@@ -54,7 +54,7 @@ cd  ~/vimsuite && git pull --rebase && git submodule update --init
 rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
 ln -s ~/vimsuite/.vim ~/.vim
-cd ~/vimsuite/.vim/bundle/ && ./reset-master.sh
+./update.sh
 vim
 ```
 After open vim ,just type :BundleUpdate
@@ -66,7 +66,7 @@ Update
 
 ```
 cd  ~/vimsuite && git pull --rebase && git submodule update --init
-cd ~/vimsuite/.vim/bundle/ && ./reset-master.sh
+./update.sh
 vim
 ```
 
