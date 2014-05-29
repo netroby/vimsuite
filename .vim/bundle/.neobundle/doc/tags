@@ -97,6 +97,8 @@
 :CtrlPRoot	ctrlp.txt	/*:CtrlPRoot*
 :CtrlPTag	ctrlp.txt	/*:CtrlPTag*
 :CtrlPUndo	ctrlp.txt	/*:CtrlPUndo*
+:FencAutoDetect	fencview.txt	/*:FencAutoDetect*
+:FencView	fencview.txt	/*:FencView*
 :NERDTree	NERD_tree.txt	/*:NERDTree*
 :NERDTreeCWD	NERD_tree.txt	/*:NERDTreeCWD*
 :NERDTreeClose	NERD_tree.txt	/*:NERDTreeClose*
@@ -222,6 +224,14 @@ ClearAllCtrlPCaches	ctrlp.txt	/*ClearAllCtrlPCaches*
 ClearCtrlPCache	ctrlp.txt	/*ClearCtrlPCache*
 ControlP	ctrlp.txt	/*ControlP*
 CtrlP	ctrlp.txt	/*CtrlP*
+Fencview	fencview.txt	/*Fencview*
+FencviewCommands	fencview.txt	/*FencviewCommands*
+FencviewContents	fencview.txt	/*FencviewContents*
+FencviewCustomisation	fencview.txt	/*FencviewCustomisation*
+FencviewInstallation	fencview.txt	/*FencviewInstallation*
+FencviewIntroduction	fencview.txt	/*FencviewIntroduction*
+FencviewTips	fencview.txt	/*FencviewTips*
+FencviewUsage	fencview.txt	/*FencviewUsage*
 NERDTree	NERD_tree.txt	/*NERDTree*
 NERDTree-?	NERD_tree.txt	/*NERDTree-?*
 NERDTree-A	NERD_tree.txt	/*NERDTree-A*
@@ -372,6 +382,10 @@ emmet-tutorial	emmet.txt	/*emmet-tutorial*
 emmet-update-image-size	emmet.txt	/*emmet-update-image-size*
 emmet-wrap-with-abbreviation	emmet.txt	/*emmet-wrap-with-abbreviation*
 emmet.txt	emmet.txt	/*emmet.txt*
+fencview.txt	fencview.txt	/*fencview.txt*
+fencview.vim	fencview.txt	/*fencview.vim*
+fencview.vim	fencview.txt	/*fencview.vim*
+fileencodings	fencview.txt	/*fileencodings*
 ft-php-indent	PHPIndent.txt	/*ft-php-indent*
 fugitive	fugitive.txt	/*fugitive*
 fugitive#head(...)	fugitive.txt	/*fugitive#head(...)*
@@ -515,6 +529,7 @@ g:neocomplete#sources#vim#complete_functions	neocomplete.txt	/*g:neocomplete#sou
 g:neocomplete#tags_filter_patterns	neocomplete.txt	/*g:neocomplete#tags_filter_patterns*
 g:neocomplete#text_mode_filetypes	neocomplete.txt	/*g:neocomplete#text_mode_filetypes*
 g:neocomplete#use_vimproc	neocomplete.txt	/*g:neocomplete#use_vimproc*
+g:neosnippet#data_directory	neosnippet.txt	/*g:neosnippet#data_directory*
 g:neosnippet#disable_runtime_snippets	neosnippet.txt	/*g:neosnippet#disable_runtime_snippets*
 g:neosnippet#disable_select_mode_mappings	neosnippet.txt	/*g:neosnippet#disable_select_mode_mappings*
 g:neosnippet#enable_preview	neosnippet.txt	/*g:neosnippet#enable_preview*
@@ -828,6 +843,7 @@ neosnippet.txt	neosnippet.txt	/*neosnippet.txt*
 php-comment	PHPIndent.txt	/*php-comment*
 php-indent	PHPIndent.txt	/*php-indent*
 php-indenting	PHPIndent.txt	/*php-indenting*
+plugin	fencview.txt	/*plugin*
 remove_statusline_func	airline.txt	/*remove_statusline_func*
 riv.txt	riv.txt	/*riv.txt*
 s_<Plug>(neosnippet_expand)	neosnippet.txt	/*s_<Plug>(neosnippet_expand)*
