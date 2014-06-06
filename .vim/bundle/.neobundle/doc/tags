@@ -163,6 +163,7 @@
 :UniteWithCurrentDir	unite.txt	/*:UniteWithCurrentDir*
 :UniteWithCursorWord	unite.txt	/*:UniteWithCursorWord*
 :UniteWithInput	unite.txt	/*:UniteWithInput*
+:UniteWithInputDirectory	unite.txt	/*:UniteWithInputDirectory*
 :UniteWithProjectDir	unite.txt	/*:UniteWithProjectDir*
 :VimProcBang	vimproc.txt	/*:VimProcBang*
 :VimProcRead	vimproc.txt	/*:VimProcRead*
@@ -322,6 +323,7 @@ airline-hunks	airline.txt	/*airline-hunks*
 airline-intro	airline.txt	/*airline-intro*
 airline-license	airline.txt	/*airline-license*
 airline-name	airline.txt	/*airline-name*
+airline-nrrwrgn	airline.txt	/*airline-nrrwrgn*
 airline-parts	airline.txt	/*airline-parts*
 airline-pipeline	airline.txt	/*airline-pipeline*
 airline-pipeline-return-codes	airline.txt	/*airline-pipeline-return-codes*
@@ -553,6 +555,7 @@ g:unite_force_overwrite_statusline	unite.txt	/*g:unite_force_overwrite_statuslin
 g:unite_ignore_source_files	unite.txt	/*g:unite_ignore_source_files*
 g:unite_kind_cdable_cd_command	unite.txt	/*g:unite_kind_cdable_cd_command*
 g:unite_kind_cdable_lcd_command	unite.txt	/*g:unite_kind_cdable_lcd_command*
+g:unite_kind_file_preview_max_filesize	unite.txt	/*g:unite_kind_file_preview_max_filesize*
 g:unite_kind_file_vertical_preview	unite.txt	/*g:unite_kind_file_vertical_preview*
 g:unite_kind_jump_list_after_jump_scroll	unite.txt	/*g:unite_kind_jump_list_after_jump_scroll*
 g:unite_kind_openable_cd_command	unite.txt	/*g:unite_kind_openable_cd_command*
@@ -591,6 +594,7 @@ g:unite_source_line_search_word_highlight	unite.txt	/*g:unite_source_line_search
 g:unite_source_menu_menus	unite.txt	/*g:unite_source_menu_menus*
 g:unite_source_neobundle_install_max_processes	neobundle.txt	/*g:unite_source_neobundle_install_max_processes*
 g:unite_source_outline_cache_limit	unite-outline.txt	/*g:unite_source_outline_cache_limit*
+g:unite_source_outline_ctags_program	unite-outline.txt	/*g:unite_source_outline_ctags_program*
 g:unite_source_outline_filetype_options	unite-outline.txt	/*g:unite_source_outline_filetype_options*
 g:unite_source_outline_highlight	unite-outline.txt	/*g:unite_source_outline_highlight*
 g:unite_source_outline_indent_width	unite-outline.txt	/*g:unite_source_outline_indent_width*
@@ -598,6 +602,7 @@ g:unite_source_outline_info	unite-outline.txt	/*g:unite_source_outline_info*
 g:unite_source_outline_max_headings	unite-outline.txt	/*g:unite_source_outline_max_headings*
 g:unite_source_process_enable_confirm	unite.txt	/*g:unite_source_process_enable_confirm*
 g:unite_source_rec_async_command	unite.txt	/*g:unite_source_rec_async_command*
+g:unite_source_rec_git_command	unite.txt	/*g:unite_source_rec_git_command*
 g:unite_source_rec_ignore_pattern	unite.txt	/*g:unite_source_rec_ignore_pattern*
 g:unite_source_rec_max_cache_files	unite.txt	/*g:unite_source_rec_max_cache_files*
 g:unite_source_rec_min_cache_files	unite.txt	/*g:unite_source_rec_min_cache_files*
@@ -617,6 +622,7 @@ g:vimproc_password_pattern	vimproc.txt	/*g:vimproc_password_pattern*
 g:vimproc_popen2_commands	vimproc.txt	/*g:vimproc_popen2_commands*
 i_<Plug>(neosnippet_start_unite_snippet)	neosnippet.txt	/*i_<Plug>(neosnippet_start_unite_snippet)*
 i_<Plug>(unite_choose_action)	unite.txt	/*i_<Plug>(unite_choose_action)*
+i_<Plug>(unite_complete)	unite.txt	/*i_<Plug>(unite_complete)*
 i_<Plug>(unite_delete_backward_char)	unite.txt	/*i_<Plug>(unite_delete_backward_char)*
 i_<Plug>(unite_delete_backward_line)	unite.txt	/*i_<Plug>(unite_delete_backward_line)*
 i_<Plug>(unite_delete_backward_path)	unite.txt	/*i_<Plug>(unite_delete_backward_path)*
@@ -949,6 +955,7 @@ unite-filter-converter_relative_abbr	unite.txt	/*unite-filter-converter_relative
 unite-filter-converter_relative_word	unite.txt	/*unite-filter-converter_relative_word*
 unite-filter-converter_smart_path	unite.txt	/*unite-filter-converter_smart_path*
 unite-filter-converter_tail	unite.txt	/*unite-filter-converter_tail*
+unite-filter-converter_tail_abbr	unite.txt	/*unite-filter-converter_tail_abbr*
 unite-filter-default	unite.txt	/*unite-filter-default*
 unite-filter-matcher_context	unite.txt	/*unite-filter-matcher_context*
 unite-filter-matcher_default	unite.txt	/*unite-filter-matcher_default*
@@ -1033,6 +1040,8 @@ unite-options-no-split	unite.txt	/*unite-options-no-split*
 unite-options-no-start-insert	unite.txt	/*unite-options-no-start-insert*
 unite-options-profile-name	unite.txt	/*unite-options-profile-name*
 unite-options-prompt	unite.txt	/*unite-options-prompt*
+unite-options-prompt-direction	unite.txt	/*unite-options-prompt-direction*
+unite-options-prompt-visible	unite.txt	/*unite-options-prompt-visible*
 unite-options-quick-match	unite.txt	/*unite-options-quick-match*
 unite-options-resume	unite.txt	/*unite-options-resume*
 unite-options-select	unite.txt	/*unite-options-select*
@@ -1137,6 +1146,7 @@ unite-source-file/new	unite.txt	/*unite-source-file\/new*
 unite-source-file_point	unite.txt	/*unite-source-file_point*
 unite-source-file_rec	unite.txt	/*unite-source-file_rec*
 unite-source-file_rec/async	unite.txt	/*unite-source-file_rec\/async*
+unite-source-file_rec/git	unite.txt	/*unite-source-file_rec\/git*
 unite-source-find	unite.txt	/*unite-source-find*
 unite-source-function	unite.txt	/*unite-source-function*
 unite-source-grep	unite.txt	/*unite-source-grep*
@@ -1198,10 +1208,14 @@ vimproc-commands	vimproc.txt	/*vimproc-commands*
 vimproc-contents	vimproc.txt	/*vimproc-contents*
 vimproc-examples	vimproc.txt	/*vimproc-examples*
 vimproc-faq	vimproc.txt	/*vimproc-faq*
+vimproc-file-object	vimproc.txt	/*vimproc-file-object*
 vimproc-functions	vimproc.txt	/*vimproc-functions*
 vimproc-install	vimproc.txt	/*vimproc-install*
 vimproc-interface	vimproc.txt	/*vimproc-interface*
 vimproc-introduction	vimproc.txt	/*vimproc-introduction*
+vimproc-objects	vimproc.txt	/*vimproc-objects*
+vimproc-process-object	vimproc.txt	/*vimproc-process-object*
+vimproc-socket-object	vimproc.txt	/*vimproc-socket-object*
 vimproc-tips	vimproc.txt	/*vimproc-tips*
 vimproc-tips-pseudo-devices	vimproc.txt	/*vimproc-tips-pseudo-devices*
 vimproc-variables	vimproc.txt	/*vimproc-variables*

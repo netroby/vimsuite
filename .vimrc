@@ -54,6 +54,8 @@ let g:NERDTreeDirArrows=0
 set fileencodings=utf-8,gbk,cp936,cp950,latin1
 set t_Co=256 
 colorscheme molokai
+let g:rehash256 = 1
+let g:molokai_original = 1
 let g:fencview_autodetect = 0
 let g:fencview_checklines = 30
 let g:vim_markdown_folding_disabled=0
