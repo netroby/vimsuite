@@ -1,5 +1,5 @@
 #!/bin/sh
-git clone https://github.com/ancientrock/vimsuite.git ~/vimsuite 
+git clone https://github.com/netroby/vimsuite.git ~/vimsuite 
 cd  ~/vimsuite && git pull --rebase && git submodule update --init
 if [ !  -f ~/.vimrc ]; then
     ln -s ~/vimsuite/.vimrc ~/.vimrc

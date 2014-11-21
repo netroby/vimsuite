@@ -10,4 +10,4 @@
     * c1da0b4 Using neobundle replace vundle
     * 54352c8 Add gitmodules
     * dabf202 Add neosnippet and neocomplete plugins
-    * 827e44a Merge branch 'master' of github.com:ancientrock/vimsuite
+    * 827e44a Merge branch 'master' of github.com:netroby/vimsuite

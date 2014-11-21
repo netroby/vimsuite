@@ -49,7 +49,7 @@ Just clone it to your local repository.
 and copy .vimrc and .vim to your home directory.
 
 ```
-git clone https://github.com/ancientrock/vimsuite.git ~/vimsuite 
+git clone https://github.com/netroby/vimsuite.git ~/vimsuite 
 cd  ~/vimsuite && git pull --rebase && git submodule update --init
 rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
