@@ -55,7 +55,7 @@ rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
 ln -s ~/vimsuite/.vim ~/.vim
 ./update.sh
-vim
+vim -c 'NeoBundleUpdate!'
 ```
 After open vim ,just type :BundleUpdate
 
@@ -66,8 +66,7 @@ Update
 
 ```
 cd  ~/vimsuite && git pull --rebase && git submodule update --init
-./update.sh
-vim
+vim  -c 'NeoBundleUpdate!'
 ```
 
 
