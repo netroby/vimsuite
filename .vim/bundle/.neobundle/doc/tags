@@ -397,6 +397,7 @@ PHP_outdentphpescape	PHPIndent.txt	/*PHP_outdentphpescape*
 PHP_removeCRwhenUnix	PHPIndent.txt	/*PHP_removeCRwhenUnix*
 PHP_vintage_case_default_indent	PHPIndent.txt	/*PHP_vintage_case_default_indent*
 ResetCtrlP	ctrlp.txt	/*ResetCtrlP*
+Tabular.txt	Tabular.txt	/*Tabular.txt*
 add_statusline_func	airline.txt	/*add_statusline_func*
 airline	airline.txt	/*airline*
 airline-accents	airline.txt	/*airline-accents*
@@ -1011,6 +1012,12 @@ surround-mappings	surround.txt	/*surround-mappings*
 surround-replacements	surround.txt	/*surround-replacements*
 surround-targets	surround.txt	/*surround-targets*
 surround.txt	surround.txt	/*surround.txt*
+tabular	Tabular.txt	/*tabular*
+tabular-intro	Tabular.txt	/*tabular-intro*
+tabular-scripting	Tabular.txt	/*tabular-scripting*
+tabular-toc	Tabular.txt	/*tabular-toc*
+tabular-walkthrough	Tabular.txt	/*tabular-walkthrough*
+tabular.vim	Tabular.txt	/*tabular.vim*
 unite	unite.txt	/*unite*
 unite#action#do_candidates()	unite.txt	/*unite#action#do_candidates()*
 unite#custom#action()	unite.txt	/*unite#custom#action()*
