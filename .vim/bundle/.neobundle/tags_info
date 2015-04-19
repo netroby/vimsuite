@@ -15,6 +15,7 @@ unite.vim
 vim-airline
 vim-colorschemes
 vim-fugitive
+vim-go
 vim-json
 vim-markdown
 vim-paren-crosshairs

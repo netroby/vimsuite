@@ -33,6 +33,7 @@ NeoBundle 'Shougo/vimproc', {
 NeoBundle 'bling/vim-airline'
 NeoBundle 'chreekat/vim-paren-crosshairs'
 NeoBundle 'tpope/vim-surround'
+NeoBundle 'fatih/vim-go'
 call neobundle#end()
 set ls=2
 filetype plugin indent on
