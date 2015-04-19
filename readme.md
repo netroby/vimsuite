@@ -1,10 +1,8 @@
-vimsuite
-==========
+# vimsuite
 
 This is a vim suite for me , also for you , if you are a coder.
 
-Supported Distro:
------------------
+## Supported Distro:
 
 * MacOS 10.9
 * Debian 7
@@ -30,8 +28,7 @@ Try Linux/Unix, or MacOS, you should see a new world.
 
 
 
-Installation
--------------
+## Installation
 
 First, you must full install vim.
 
@@ -50,28 +47,25 @@ and copy .vimrc and .vim to your home directory.
 
 ```
 git clone https://github.com/netroby/vimsuite.git ~/vimsuite 
-cd  ~/vimsuite && git pull --rebase && git submodule update --init
+cd  ~/vimsuite && git pull --rebase 
 rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
 ln -s ~/vimsuite/.vim ~/.vim
-./update.sh
 vim -c 'NeoBundleUpdate!'
 ```
 After open vim ,just type :BundleUpdate
 
 After done of this, exit vim and then reopen vim, your vim is fresh and new
 
-Update 
---------
+## Update 
 
 ```
-cd  ~/vimsuite && git pull --rebase && git submodule update --init
+cd  ~/vimsuite && git pull --rebase 
 vim  -c 'NeoBundleUpdate!'
 ```
 
 
-Mail list
------------
+## Mail list
 
 Users can subscribe to your list by sending email to ar-request@freelists.org with 'subscribe' in the Subject field OR by visiting your list page at http://www.freelists.org/list/ar The web-based administration suite allows you to add subscribers manually.
 
