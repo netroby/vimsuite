@@ -35,6 +35,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'chreekat/vim-paren-crosshairs'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'fatih/vim-go'
+NeoBundle 'majutsushi/tagbar'
 call neobundle#end()
 set ls=2
 filetype plugin indent on
@@ -67,8 +68,8 @@ map <F6> :Unite outline<RETURN>
 map! <F6> :Unite outline<RETURN>
 map <F7> :NERDTreeToggle<RETURN>
 map! <F7> :NERDTreeToggle<RETURN>
-map <F8> :FencAutoDetect<RETURN>
-map! <F8> :FencAutoDetect<RETURN>
+map <F9> :FencAutoDetect<RETURN>
+map! <F9> :FencAutoDetect<RETURN>
 
 xnoremap p pgvy
 set backspace=2
@@ -174,3 +175,4 @@ endif
 hi CursorLine   cterm=NONE ctermbg=235
 hi CursorColumn cterm=NONE ctermbg=235
 nnoremap <Leader>c :set cursorline! cursorcolumn!<CR>
+nmap <F8> :TagbarToggle<CR>
