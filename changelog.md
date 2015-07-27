@@ -1,6 +1,10 @@
 # Changelog
 
-# 2014-04-18
+## 2015-07-27
+    * Support golang 
+    * Support scala
+
+## 2014-04-18
     * fdda470 Add key map to outline
     * a360811 Add hight light current cursor
     * 6e6cecc Add crosshairs and surround
