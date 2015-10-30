@@ -71,3 +71,9 @@ Users can subscribe to your list by sending email to ar-request@freelists.org wi
 
 If you have any question please feel free to join mailist to have a chat.
 
+
+## Donate me please
+
+![Scan QRCode donate me via Alipay](https://www.netroby.com/assets/images/alipayme.jpg)
+
+**Scan QRCode donate me via Alipay**
