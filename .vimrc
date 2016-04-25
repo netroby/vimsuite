@@ -37,6 +37,7 @@ NeoBundle 'chreekat/vim-paren-crosshairs'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'majutsushi/tagbar'
+NeoBundle 'rust-lang/rust.vim'
 call neobundle#end()
 set ls=2
 filetype plugin indent on
