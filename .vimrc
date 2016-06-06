@@ -32,7 +32,6 @@ NeoBundle 'Shougo/vimproc', {
       \     'unix' : 'make -f make_unix.mak',
       \    },
       \ }
-NeoBundle 'bling/vim-airline'
 NeoBundle 'chreekat/vim-paren-crosshairs'
 NeoBundle 'tpope/vim-surround'
 NeoBundle 'fatih/vim-go'
