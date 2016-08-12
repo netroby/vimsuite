@@ -37,6 +37,7 @@ NeoBundle 'tpope/vim-surround'
 NeoBundle 'fatih/vim-go'
 NeoBundle 'majutsushi/tagbar'
 NeoBundle 'rust-lang/rust.vim'
+NeoBundle 'toyamarinyon/vim-swift'
 call neobundle#end()
 set ls=2
 filetype plugin indent on
