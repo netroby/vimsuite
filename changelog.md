@@ -1,5 +1,9 @@
 # Changelog
 
+## 2017-03-10
+
+    * using vim-plug manage plugins
+
 ## 2015-07-27
     * Support golang 
     * Support scala
