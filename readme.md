@@ -51,18 +51,11 @@ cd  ~/vimsuite && git pull --rebase
 rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
 ln -s ~/vimsuite/.vim ~/.vim
-vim -c 'NeoBundleUpdate!'
+vim -c 'PlugInstall'
 ```
 After open vim ,just type :BundleUpdate
 
 After done of this, exit vim and then reopen vim, your vim is fresh and new
-
-## Update 
-
-```
-cd  ~/vimsuite && git pull --rebase 
-vim  -c 'NeoBundleUpdate!'
-```
 
 
 ## Mail list
