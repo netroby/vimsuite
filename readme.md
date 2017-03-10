@@ -55,7 +55,6 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.py --all
 vim -c 'PlugInstall'
 ```
-After open vim ,just type :BundleUpdate
 
 After done of this, exit vim and then reopen vim, your vim is fresh and new
 
