@@ -18,10 +18,14 @@ Plug  'flazz/vim-colorschemes'
 Plug  'ekalinin/Dockerfile.vim'
 Plug  'chreekat/vim-paren-crosshairs'
 Plug  'tpope/vim-surround'
-Plug  'fatih/vim-go'
 Plug  'majutsushi/tagbar'
 Plug  'rust-lang/rust.vim'
 Plug  'toyamarinyon/vim-swift'
+Plug 'rdnetto/YCM-Generator'
+Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
+Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
+Plug 'junegunn/fzf', { 'do': 'yes \| ./install' }
 
 
 call plug#end()
