@@ -51,6 +51,8 @@ cd  ~/vimsuite && git pull --rebase
 rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
 ln -s ~/vimsuite/.vim ~/.vim
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --all
 vim -c 'PlugInstall'
 ```
 After open vim ,just type :BundleUpdate
