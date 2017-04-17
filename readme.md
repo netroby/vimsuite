@@ -51,9 +51,9 @@ cd  ~/vimsuite && git pull --rebase
 rm -rf ~/.vim*
 ln -s ~/vimsuite/.vimrc ~/.vimrc
 ln -s ~/vimsuite/.vim ~/.vim
-cd ~/.vim/bundle/YouCompleteMe
-./install.py --all
 vim -c 'PlugInstall'
+cd ~/.vim/plugged/YouCompleteMe
+./install.py --all
 ```
 
 After done of this, exit vim and then reopen vim, your vim is fresh and new
