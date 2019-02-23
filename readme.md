@@ -39,6 +39,7 @@ you need install vim full with following command.
 ```sh
 apt-get install vim-nox -y
 apt-get install cmake -y
+apt-get install python-dev -y
 ```
 
 
