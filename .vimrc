@@ -22,7 +22,7 @@ Plug 'majutsushi/tagbar'
 Plug 'rust-lang/rust.vim'
 Plug 'cespare/vim-toml'
 Plug 'toyamarinyon/vim-swift'
-Plug 'rdnetto/YCM-Generator'
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
