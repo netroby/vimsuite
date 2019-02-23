@@ -37,7 +37,8 @@ If you are using debian or whatever.
 you need install vim full with following command.
 
 ```sh
-apt-get install vim-nox
+apt-get install vim-nox -y
+apt-get install cmake -y
 ```
 
 
